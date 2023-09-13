@@ -12,6 +12,7 @@ function onSpeak(e) {
     const chute = e.results[0][0].transcript
     exibeChuteNaTela(chute)
     VerificaSeOChutePossuiUmValorValido(chute)
+    gameOver(chute)
 }
 
 function exibeChuteNaTela(chute) {

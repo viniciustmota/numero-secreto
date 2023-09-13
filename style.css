@@ -19,6 +19,10 @@ body {
   margin: 0;
 }
 
+.game-over{
+  --bg-color: #a11010;
+}
+
 h1 {
   font-size: 5em;
 }
@@ -45,3 +49,10 @@ h3 {
     margin: 20px;
 }
 
+.btn-jogar{
+  padding: 8px 15px;
+  border: 0;
+  background-color: var(--cor-primaria);
+  cursor: pointer;
+  border-radius: 5px;margin-top: 20px;
+}
